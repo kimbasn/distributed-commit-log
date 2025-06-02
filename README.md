@@ -8,10 +8,10 @@ This project is a **distributed, append-only commit log** built from scratch in 
 
 * [x] In-memory log for fast prototyping and tests
 * [x] File-backed `Store` with length-prefixed framing
-* [ ] Protobuf-encoded `Record` persistence
-* [ ] Indexed segments with offset-to-position mapping
-* [ ] Segment rotation and compaction (planned)
-* [ ] Multi-segment `Log` orchestration
+* [x] Protobuf-encoded `Record` persistence
+* [x] Indexed segments with offset-to-position mapping
+* [x] Segment rotation and compaction
+* [x] Multi-segment `Log` orchestration
 * [ ] gRPC and HTTP API layers
 * [ ] TLS-secured transport with authentication
 * [ ] Manual leader-based clustering (Raft optional)

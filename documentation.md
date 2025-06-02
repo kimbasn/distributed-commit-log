@@ -97,6 +97,7 @@ This document outlines the design of a **Distributed Commit Log** built in **Go*
 * Orchestrates multiple segments
 * Append dispatches to active segment
 * Read locates correct segment by offset
+* ✅ Completed and committed
 
 ### 🔜 Milestone 5+: API Layer, TLS, Replication
 
