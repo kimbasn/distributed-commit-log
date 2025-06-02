@@ -83,12 +83,14 @@ This document outlines the design of a **Distributed Commit Log** built in **Go*
 * Fixed-size entries: (offset, position)
 * Index maps logical record offset → file position
 * Binary encoding for efficient lookups
+* ✅ Completed and committed
 
 ### 🔜 Milestone 3: Segment
 
 * Combines Store + Index
 * Tracks `baseOffset`, `nextOffset`
 * Handles appending and segment size boundaries
+* ✅ Completed and committed
 
 ### 🔜 Milestone 4: Log Abstraction
 
